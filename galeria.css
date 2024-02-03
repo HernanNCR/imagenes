@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(103, 150, 172, 0.3);
+    
+}
+nav {
+    height: 50px;
+    background-color: rgb(103, 150, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+nav p{
+    font-size: 20px;
+}
+ 
+.container{
+    height: auto;
+    width: 95%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.contenedor_imagen{
+    width: 200px;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 1px;
+    
+    
+}
+
+.contenedor_imagen:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.imagen:hover{
+    filter: brightness(50%);
+    transition: 1s;
+}
